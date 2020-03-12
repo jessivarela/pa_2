@@ -1,0 +1,47 @@
+---
+title: "Pa_2"
+output: github_document
+---
+
+# Programming Assignment 2
+
+```{r} 
+
+library(tidyverse)
+
+data <- read_csv("data/data.csv")
+
+print(data)
+
+f0_1 <- c(196,239,241,198,220)
+
+mean(f0_1)
+
+
+f0_2 <- c(173, 199, 202, 189, 180)
+
+mean(f0_2)
+
+
+durationV_1 <- c(.15, .13, .13, .13, .13)
+
+mean(durationV_1)
+
+
+durationV_2 <- c(.16, .1, .13, .13, .12)
+
+mean(durationV_2)
+
+
+int_1 <-c(78.5, 68.3, 79.4, 76.4, 76.1)
+
+mean(int_1)
+
+int_2 <- c(78.1, 73.4, 80.2, 75.5, 75.2)
+
+mean(int_2)
+
+```
+
+
+
